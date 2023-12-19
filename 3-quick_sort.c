@@ -17,6 +17,7 @@ void swap(int *a, int *b)
  * @array: an array of integers
  * @low: smallest index
  * @high: highest index
+ * @size: size of array
  * Return: The next index
  */
 int partition(int *array, ssize_t low, ssize_t high, ssize_t size)
