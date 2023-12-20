@@ -28,4 +28,5 @@ void print_array(const int *array, size_t size);
 int partition(int *array, ssize_t low, ssize_t high, ssize_t size);
 void swap(int *a, int *b);
 void quicksort(int *array, ssize_t low, ssize_t high, size_t size);
+void swap_nodes(listint_t **list, listint_t *node1, listint_t *node2);
 #endif /*SORT_H*/
